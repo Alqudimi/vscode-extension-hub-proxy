@@ -1,0 +1,25 @@
+{
+  "name": "composite-extension-marketplace-proxy",
+  "version": "1.0.0",
+  "description": "A Node.js proxy for aggregating Microsoft Marketplace and Open VSX registry for VSCode OSS (Void Editor).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: No tests specified. See README.md for manual testing instructions.\" && exit 0"
+  },
+  "keywords": [
+    "vscode",
+    "openvsx",
+    "marketplace",
+    "proxy",
+    "extension"
+  ],
+  "author": "Manus AI",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "node-cache": "^5.1.2"
+  }
+}
